@@ -1,0 +1,58 @@
+{
+  "saldo": 0,
+  "cuentas": {
+    "33333333": {
+      "es_admin": false,
+      "ultimo_cambio_clave": 0,
+      "sueldo": 1,
+      "password": "Prueba321",
+      "saldo": 1,
+      "dni": "33333333"
+    },
+    "22222222": {
+      "es_admin": false,
+      "ultimo_cambio_clave": 0,
+      "sueldo": 1,
+      "password": "Prueba123",
+      "saldo": 1,
+      "dni": "22222222"
+    },
+    "11111111": {
+      "es_admin": true,
+      "ultimo_cambio_clave": 0,
+      "sueldo": 0,
+      "password": "admin",
+      "saldo": 0,
+      "dni": "11111111"
+    }
+  },
+  "historial": {
+    "33333333": {
+      "2023-11-30": [
+        {
+          "monto": 4,
+          "tipo": "Extracci\u00f3n"
+        }
+      ]
+    },
+    "22222222": {
+      "2023-11-29": [
+        {
+          "monto": 1,
+          "tipo": "Extracci\u00f3n"
+        },
+        {
+          "monto": 2,
+          "tipo": "Extracci\u00f3n"
+        }
+      ],
+      "2023-11-30": [
+        {
+          "monto": 3,
+          "tipo": "Extracci\u00f3n"
+        }
+      ]
+    },
+    "11111111": {}
+  }
+}
